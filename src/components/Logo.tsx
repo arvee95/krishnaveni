@@ -26,7 +26,7 @@ export const Logo: React.FC<LogoProps> = ({
       to="/"
       onClick={onClick}
       aria-label="Krishnaveni Interiors home"
-      className={`inline-flex shrink-0 items-center justify-center transition-opacity hover:opacity-95 ${className}`}
+      className={`inline-flex shrink-0 items-center justify-center transition-opacity hover:opacity-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C6AA76] rounded-xs ${className}`}
     >
       <div
         className={`flex items-center justify-center overflow-hidden bg-transparent ${sizeClasses[size]}`}
@@ -34,7 +34,11 @@ export const Logo: React.FC<LogoProps> = ({
         <img
           src="/logo.svg"
           alt="Krishnaveni Interiors"
-          className="block h-auto max-h-[72px] w-full object-contain"
+          className={`block h-auto w-full object-contain ${
+            variant === 'footer'
+              ? 'max-h-[85px] sm:max-h-[96px]'
+              : 'max-h-[64px] sm:max-h-[72px]'
+          }`}
           loading="eager"
         />
       </div>
