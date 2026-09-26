@@ -32,7 +32,7 @@ export const Logo: React.FC<LogoProps> = ({
         className={`flex items-center justify-center overflow-hidden bg-transparent ${sizeClasses[size]}`}
       >
         <img
-          src="/logo.svg"
+          src="/logo.png"
           alt="Krishnaveni Interiors"
           className={`block h-auto w-full object-contain ${
             variant === 'footer'
