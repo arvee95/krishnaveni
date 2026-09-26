@@ -1,0 +1,6 @@
+{
+  "name": "Krishnaveni Interiors",
+  "description": "Discover home and commercial interiors in Hyderabad with Krishnaveni Interiors. Explore modular kitchens, wardrobes and complete interior solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
